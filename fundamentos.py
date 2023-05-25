@@ -37,7 +37,7 @@ for fruta in frutas:
 
 # Definición de una función
 def calcular_area_rectangulo(base, altura):
-    area = base * altura
+    area = base * altura / 2
     return area
 
 # Llamada a la función
