@@ -23,8 +23,9 @@ else:
 # Estructuras de control: bucles
 
 # Bucle while
+iteraciones =  = int(input("Ingresa el número de iteraciones: "))
 contador = 0
-while contador < 5:
+while contador < iteraciones:
     print("El contador es", contador)
     contador += 1
 
