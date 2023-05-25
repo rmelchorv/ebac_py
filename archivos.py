@@ -34,7 +34,8 @@ def process_text(text):
     print("Palabras filtradas:", filtered_words)
 
 # Texto de ejemplo
-texto_ejemplo = get_text('texto.txt')
+archivo = 'texto.txt'
+texto_ejemplo = get_text(archivo)
 
 # Procesar el texto
 process_text(texto_ejemplo)
